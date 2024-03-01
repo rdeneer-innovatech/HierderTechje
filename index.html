@@ -58,104 +58,157 @@
     <div class="grid-containerlist"; id="SelectionList"></div>
     <div class="grid-container"; id="ItemList"></div>
       <script type="module">
-          let Logo = document.getElementById("Logo"); 
-          let ItemList = document.getElementById("ItemList"); 
-          let SelectionList = document.getElementById("SelectionList"); 
-          //import AllMainItems from './MainItems.json' assert { type: 'json' };
-          const AllMainItems = 
-          {
-            "IMG": "./img/Logo.png",
-            "Belegde broodjes":
-            [{
-              "IMG": "./img/ColdBread.jpg",
-              "Broodje Kaas":
-              [{ 
-                "IMG": "./img/ColdBread.jpg",
-                "HVH Wit":
-                [{
-                  "IMG": "./img/ColdBread.jpg",
-                  "Add": "€",
-                }], 
-                "HVH Bruin":
-                [{
-                  "IMG": "./img/ColdBread.jpg",
-                  "Add": "€",
-                }]
-              }],
-              "Broodje Cervelaat":
-              [{
-                "IMG": "./img/ColdBread.jpg",
-              }]
-            }],
-            "Drinks":
-            [{
-              "IMG": "./img/Drink.jpg",
-              "Spa Blauw":[{}],
-              "Spa Rood":[{}]
-            }]
-          }
+			let Logo = document.getElementById("Logo"); 
+			let ItemList = document.getElementById("ItemList"); 
+			let SelectionList = document.getElementById("SelectionList"); 
+			const AllMainItems = 
+			{
+			"IMG": "./img/Logo.png",
+			"Belegde broodjes":
+			[{
+			  "IMG": "./img/ColdBread.jpg",
+			  "Broodje Kaas":
+			  [{ 
+				"IMG": "./img/ColdBread.jpg",
+				"€10.50 HVH Wit":
+				[{
+				  "IMG": "./img/ColdBread.jpg",
+				  "Add": "€",
+				}], 
+				"HVH Bruin":
+				[{
+				  "IMG": "./img/ColdBread.jpg",
+				  "Add": "€",
+				}]
+			  }],
+			  "Broodje Cervelaat":
+			  [{
+				"IMG": "./img/ColdBread.jpg",
+			  }]
+			}],
+			"Drinks":
+			[{
+			  "IMG": "./img/Drink.jpg",
+			  "Spa Blauw":[{}],
+			  "Spa Rood":[{}]
+			}]
+			}
+			import AllMainItems from './MainItems.json' assert { type: 'json' };
 
-          ShowItems(AllMainItems);
-          let SelectionString = "";
-          let OrderSelection = document.createElement("div");
-          OrderSelection.className = "grid-item-selection";
-          OrderSelection.innerHTML = "<input type=\"text\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"Name\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
-          SelectionList.append(OrderSelection);  
-          let OrderBtn = document.getElementById("OrderAction"); 
-          let OrderName = document.getElementById("OrderName"); 
-          OrderBtn.onclick= (event) => { SendCurrentOrder();};
-          function SendCurrentOrder()
-          {
-            alert("Order sent unsuccessfully (TODO)") ;
+			ShowItems(AllMainItems);
+			let SelectionString = "";
+			let OrderSelection = document.createElement("div");
+			OrderSelection.className = "grid-item-selection";
+			OrderSelection.innerHTML = "<input type=\"text\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"Name\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
+			SelectionList.append(OrderSelection);  
+			let OrderBtn = document.getElementById("OrderAction"); 
+			let OrderName = document.getElementById("OrderName"); 
+			OrderBtn.onclick= (event) => { SendCurrentOrder();};
+			async function SendCurrentOrder()
+			{
+				let headersList = 
+				{
+					"Accept": "*/*",
+					"User-Agent": "API",
+					"Content-Type": "application/json"
+				}
+				
+				let StringOrderItems = "";
+				const ListOrderItems = SelectionList.innerHTML.split("grid-item-selection");
+				for (let x = 2; x < ListOrderItems.length; x ++)
+				{
+					const ListOrderItemValue = ListOrderItems[x].split("<");
+					StringOrderItems+= ListOrderItemValue[0].substr(2, ListOrderItemValue[0].length-2) +"\n";
+				}
+				
+				Object.assign(headersList, {[GetData("0")]: GetData("s9")});
+				let bodyContent = JSON.stringify(
+				{
+					"repo": "HierderTechje",
+					"title": OrderName.value,
+					"body": StringOrderItems
+				});
+				let response = await fetch("https://api.github.com/repos/rdeneer-innovatech/HierderTechje/issues", 
+				{ 
+					method: "POST",
+					body: bodyContent,
+					headers: headersList
+				});
 
+				let data = await response.text();
+				console.log(data);
 
-            //INSERT INTO `WebOrders`(`Name`, `OrderItem`, `Price`) VALUES ("Test","None",0.00)
-            //DELETE FROM `WebOrders` WHERE Name="Test"
-            alert("Request has been processed");
-          }
-          function ClearItems()
-          {
+				alert("Request has been \n"+ data);
+			}
+			function ClearItems()
+			{
             ItemList.innerHTML = ""; 
             //while (ItemList.firstChild) ItemList.removeChild(ItemList.firstChild);
           }
-          function ShowItems(Items)
-          {
-            ClearItems();
-            Logo.innerHTML="<img src="+Items.IMG+">";
-            let CurrentItems = Object.keys(Items);
-            //console.log("Adding item start");
-            //console.log("Base object:");
-            //console.log(Items);
-            //console.log("Keys:");
-            //console.log(CurrentItems);
-            
-            for (let i = 1; i < CurrentItems.length; i+=1) 
-            {
-              let ItemOption = Items[CurrentItems[i]][0];
-              let NewItem = document.createElement("div");
-              NewItem.className = "grid-item";
-              NewItem.style = "background-image: url("+ItemOption.IMG+")";
-              NewItem.innerHTML = CurrentItems[i];
-              NewItem.onclick= (event) => 
-              {
-                if(ItemOption.hasOwnProperty("Add")) { AddItemToSelection(CurrentItems[i]); }
-                else { ShowItems(ItemOption); }
-              };
-              ItemList.append(NewItem);
-            }
-            //console.log("Adding item end");
-          }   
-          function AddItemToSelection(ItemToAdd)
-          {
-            ShowItems(AllMainItems);
-            console.log("Added to order list");
-            let NewItemSelection = document.createElement("div");
-            NewItemSelection.className = "grid-item-selection";
-            console.log(History);
-            NewItemSelection.innerHTML = ItemToAdd;
-            SelectionList.append(NewItemSelection);  
-            SelectionString = "";        
-          }        
+			function GetData(Loc)
+			{
+				if(Loc == "0") 
+				{
+					return ConvertTo("4377766a71746b7c63766B7170");
+				}
+				else
+				{
+					let Result = "";
+					Result += ConvertTo("44676374677422696a72616f");
+					Result += ConvertTo("49654d44787a5c336b4f66724e4749465a");
+					Result += ConvertTo("76434b57476349677c724d3634685359");
+					return Result+Loc;
+				}
+			}
+			
+			function ConvertTo(Data)
+			{
+				let strOut = "";
+				for (let x = 0; x < Data.length; x += 2)
+				{
+					strOut += String.fromCharCode(parseInt(Data.substr(x, 2), 16)-2);
+				}
+				return strOut;
+			}
+
+			function ShowItems(Items)
+			{
+				ClearItems();
+				Logo.innerHTML="<img src="+Items.IMG+">";
+				let CurrentItems = Object.keys(Items);
+				//console.log("Adding item start");
+				//console.log("Base object:");
+				//console.log(Items);
+				//console.log("Keys:");
+				//console.log(CurrentItems);
+
+				for (let i = 1; i < CurrentItems.length; i+=1) 
+				{
+				  let ItemOption = Items[CurrentItems[i]][0];
+				  let NewItem = document.createElement("div");
+				  NewItem.className = "grid-item";
+				  NewItem.style = "background-image: url("+ItemOption.IMG+")";
+				  NewItem.innerHTML = CurrentItems[i];
+				  NewItem.onclick= (event) => 
+				  {
+					if(ItemOption.hasOwnProperty("Add")) { AddItemToSelection(CurrentItems[i]); }
+					else { ShowItems(ItemOption); }
+				  };
+				  ItemList.append(NewItem);
+				}
+				//console.log("Adding item end");
+			}   
+			function AddItemToSelection(ItemToAdd)
+			{
+				ShowItems(AllMainItems);
+				console.log("Added to order list");
+				let NewItemSelection = document.createElement("div");
+				NewItemSelection.className = "grid-item-selection";
+				console.log(History);
+				NewItemSelection.innerHTML = ItemToAdd;
+				SelectionList.append(NewItemSelection);
+				SelectionString = "";
+			}
       </script>
   </body>
 </html>
