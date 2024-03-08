@@ -1,6 +1,166 @@
 {
 	"IMG": "./img/Logo.png",
-	"Panini":
+"Drinks":
+[{	"Spa Blauw":
+	[{
+		"IMG": "./img/Spa Blauw.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Spa Rood":
+	[{
+		"IMG": "./img/Spa Rood.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Pepsi cola fles":
+	[{
+		"IMG": "./img/Pepsi cola fles.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Pepsi Max cola fles":
+	[{
+		"IMG": "./img/Pepsi Max cola fles.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Ice tea Lemon fles":
+	[{
+		"IMG": "./img/Ice tea Lemon fles.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Ice tea Peach fles":
+	[{
+		"IMG": "./img/Ice tea Peach fles.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Ice tea prik fles":
+	[{
+		"IMG": "./img/Ice tea prik fles.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Ice tea Green fles":
+	[{
+		"IMG": "./img/Ice tea Green fles.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Fles melk":
+	[{
+		"IMG": "./img/Fles melk.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Fles 7up":
+	[{
+		"IMG": "./img/Fles 7up.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Fles Sisi":
+	[{
+		"IMG": "./img/Fles Sisi.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Fles Appelsap":
+	[{
+		"IMG": "./img/Fles Appelsap.png"
+	}],	"Sisi blik":
+	[{
+		"IMG": "./img/Sisi blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"7up blik":
+	[{
+		"IMG": "./img/7up blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Pepsi cola blik":
+	[{
+		"IMG": "./img/Pepsi cola blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Pepsi Max cola blik":
+	[{
+		"IMG": "./img/Pepsi Max cola blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Ice tea blik":
+	[{
+		"IMG": "./img/Ice tea blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Redbull blik":
+	[{
+		"IMG": "./img/Redbull blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Fristi blik":
+	[{
+		"IMG": "./img/Fristi blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Chocomel blik":
+	[{
+		"IMG": "./img/Chocomel blik.png",
+		"Statiegeld":
+		[{
+			"IMG": "./img/Statiegeld.png",
+			"Add": "€"
+		}]
+	}],	"Koffie take away":
+	[{
+		"IMG": "./img/Koffie take away.png"
+	}],}],"Panini's":
+[{	"Panini":
 	[{
 		"IMG": "./img/Panini.png",
 		"Panini Mozzarella, ham, kaas, mozzarella, tomaat en basilicum":
@@ -13,7 +173,8 @@
 			"IMG": "./img/Panini Gerookte zalm petrella, gerookte zalm en dille.png",
 			"Add": "€"
 		}]
-	}],	"Vergaderlunch standaard":
+	}],}],"Vergaderlunch":
+[{	"Vergaderlunch standaard":
 	[{
 		"IMG": "./img/Vergaderlunch standaard.png"
 	}],	"Vergaderlunch extra":
@@ -22,7 +183,8 @@
 	}],	"Vergaderlunch luxe":
 	[{
 		"IMG": "./img/Vergaderlunch luxe.png"
-	}],	"Friet zonder":
+	}],}],"Fries":
+[{	"Friet zonder":
 	[{
 		"IMG": "./img/Friet zonder.png"
 	}],	"Friet mayo":
@@ -37,7 +199,8 @@
 	}],	"Friet speciaal":
 	[{
 		"IMG": "./img/Friet speciaal.png"
-	}],	"Italiaanse bol gehakt speciaal":
+	}],}],"Specialiteiten":
+[{	"Italiaanse bol gehakt speciaal":
 	[{
 		"IMG": "./img/Italiaanse bol gehakt speciaal.png"
 	}],	"Clubsandwich kipfilet":
@@ -72,7 +235,8 @@
 	}],	"Focaccia serranoham":
 	[{
 		"IMG": "./img/Focaccia serranoham.png"
-	}],	"Salade Lardon":
+	}],}],"Maaltijdsalades":
+[{	"Salade Lardon":
 	[{
 		"IMG": "./img/Salade Lardon.png"
 	}],	"Salade Val-Dieu":
@@ -81,7 +245,17 @@
 	}],	"Salade carpaccio":
 	[{
 		"IMG": "./img/Salade carpaccio.png"
-	}],	"Frikandel":
+	}],	"Salade gerookte zalm":
+	[{
+		"IMG": "./img/Salade gerookte zalm.png"
+	}],	"Salade kipfilet":
+	[{
+		"IMG": "./img/Salade kipfilet.png"
+	}],	"Salade scampi":
+	[{
+		"IMG": "./img/Salade scampi.png"
+	}],}],"Snacks en tussendoortjes":
+[{	"Frikandel":
 	[{
 		"IMG": "./img/Frikandel.png"
 	}],	"Kroket":
@@ -105,7 +279,8 @@
 	}],	"Super Tosti":
 	[{
 		"IMG": "./img/Super Tosti.png"
-	}],	"Appelmoes":
+	}],}],"Sauces":
+[{	"Appelmoes":
 	[{
 		"IMG": "./img/Appelmoes.png"
 	}],	"Curry":
@@ -135,7 +310,8 @@
 	}],	"Sambal":
 	[{
 		"IMG": "./img/Sambal.png"
-	}],	"Superburgerschotel":
+	}],}],"Menu's":
+[{	"Superburgerschotel":
 	[{
 		"IMG": "./img/Superburgerschotel.png"
 	}],	"Gyrosschotel":
@@ -195,7 +371,8 @@
 	}],	"Vega pasta":
 	[{
 		"IMG": "./img/Vega pasta.png"
-	}],	"Tomatensoep":
+	}],}],"Voor de kleine honger":
+[{	"Tomatensoep":
 	[{
 		"IMG": "./img/Tomatensoep.png"
 	}],	"Kippensoep":
@@ -327,7 +504,8 @@
 			"IMG": "./img/Naturel.png",
 			"Add": "€"
 		}]
-	}],	"Broodje Ham-Kaas-Tomaat-Ui":
+	}],}],"Warm belegde broodjes":
+[{	"Broodje Ham-Kaas-Tomaat-Ui":
 	[{
 		"IMG": "./img/Broodje Ham-Kaas-Tomaat-Ui.png",
 		"Wit zacht broodje":
@@ -1386,165 +1564,8 @@
 	}],	"Chiabatta Roerei, met Petrella en Gerookte zalm":
 	[{
 		"IMG": "./img/Chiabatta Roerei, met Petrella en Gerookte zalm.png"
-	}],	"Spa Blauw":
-	[{
-		"IMG": "./img/Spa Blauw.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Spa Rood":
-	[{
-		"IMG": "./img/Spa Rood.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Pepsi cola fles":
-	[{
-		"IMG": "./img/Pepsi cola fles.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Pepsi Max cola fles":
-	[{
-		"IMG": "./img/Pepsi Max cola fles.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Ice tea Lemon fles":
-	[{
-		"IMG": "./img/Ice tea Lemon fles.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Ice tea Peach fles":
-	[{
-		"IMG": "./img/Ice tea Peach fles.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Ice tea prik fles":
-	[{
-		"IMG": "./img/Ice tea prik fles.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Ice tea Green fles":
-	[{
-		"IMG": "./img/Ice tea Green fles.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Fles melk":
-	[{
-		"IMG": "./img/Fles melk.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Fles 7up":
-	[{
-		"IMG": "./img/Fles 7up.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Fles Sisi":
-	[{
-		"IMG": "./img/Fles Sisi.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Fles Appelsap":
-	[{
-		"IMG": "./img/Fles Appelsap.png"
-	}],	"Sisi blik":
-	[{
-		"IMG": "./img/Sisi blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"7up blik":
-	[{
-		"IMG": "./img/7up blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Pepsi cola blik":
-	[{
-		"IMG": "./img/Pepsi cola blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Pepsi Max cola blik":
-	[{
-		"IMG": "./img/Pepsi Max cola blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Ice tea blik":
-	[{
-		"IMG": "./img/Ice tea blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Redbull blik":
-	[{
-		"IMG": "./img/Redbull blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Fristi blik":
-	[{
-		"IMG": "./img/Fristi blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Chocomel blik":
-	[{
-		"IMG": "./img/Chocomel blik.png",
-		"Statiegeld":
-		[{
-			"IMG": "./img/Statiegeld.png",
-			"Add": "€"
-		}]
-	}],	"Koffie take away":
-	[{
-		"IMG": "./img/Koffie take away.png"
-	}],	"Broodje Kaas":
+	}],}],"Belegde broodjes":
+[{	"Broodje Kaas":
 	[{
 		"IMG": "./img/Broodje Kaas.png",
 		"Wit zacht broodje":
@@ -3123,5 +3144,5 @@
 			"IMG": "./img/Ciabatta.png",
 			"Add": "€"
 		}]
-	}]
+	}],}]
 }
