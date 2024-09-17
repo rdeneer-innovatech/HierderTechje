@@ -57,44 +57,12 @@
     <div style="text-align: center" id="Logo"><img width="400"></div>
     <div class="grid-containerlist"; id="SelectionList"></div>
     <div class="grid-container"; id="ItemList"></div>
+	<script type="text/javascript" src="MainItems.js"></script>
       <script type="module">
 			let Logo = document.getElementById("Logo"); 
 			let ItemList = document.getElementById("ItemList"); 
 			let SelectionList = document.getElementById("SelectionList"); 
-			const AllMainItemsDebug = 
-			{
-			"IMG": "./img/Logo.png",
-			"Belegde broodjes":
-			[{
-			  "IMG": "./img/ColdBread.jpg",
-			  "Broodje Kaas":
-			  [{ 
-				"IMG": "./img/ColdBread.jpg",
-				"€10.50 HVH Wit":
-				[{
-				  "IMG": "./img/ColdBread.jpg",
-				  "Add": "€",
-				}], 
-				"HVH Bruin":
-				[{
-				  "IMG": "./img/ColdBread.jpg",
-				  "Add": "€",
-				}]
-			  }],
-			  "Broodje Cervelaat":
-			  [{
-				"IMG": "./img/ColdBread.jpg",
-			  }]
-			}],
-			"Drinks":
-			[{
-			  "IMG": "./img/Drink.jpg",
-			  "Spa Blauw":[{}],
-			  "Spa Rood":[{}]
-			}]
-			}
-			import AllMainItems from './MainItems.json' assert { type: 'json' };
-
+			
 			ShowItems(AllMainItems);
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
