@@ -62,7 +62,7 @@
 			let Logo = document.getElementById("Logo"); 
 			let ItemList = document.getElementById("ItemList"); 
 			let SelectionList = document.getElementById("SelectionList"); 
-			
+			let PreviousItems = [];
 			ShowItems(AllMainItems);
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
@@ -71,7 +71,7 @@
 			SelectionList.append(OrderSelection);  
 			let OrderBtn = document.getElementById("OrderAction"); 
 			let OrderName = document.getElementById("OrderName"); 
-			OrderBtn.onclick= (event) => { SendCurrentOrder();};
+			OrderBtn.onclick= (event) => { SendCurrentOrder(); };
 			async function SendCurrentOrder()
 			{
 				let headersList = 
@@ -110,9 +110,9 @@
 			}
 			function ClearItems()
 			{
-            ItemList.innerHTML = ""; 
-            //while (ItemList.firstChild) ItemList.removeChild(ItemList.firstChild);
-          }
+               ItemList.innerHTML = ""; 
+               //while (ItemList.firstChild) ItemList.removeChild(ItemList.firstChild);
+            }
 			function GetData(Loc)
 			{
 				if(Loc == "0") 
@@ -127,8 +127,7 @@
 					Result += ConvertTo("76434b57476349677c724d3634685359");
 					return Result+Loc;
 				}
-			}
-			
+			}		
 			function ConvertTo(Data)
 			{
 				let strOut = "";
@@ -138,10 +137,25 @@
 				}
 				return strOut;
 			}
-
 			function ShowItems(Items)
 			{
+				//Add the current item to the navigationlist 
+				PreviousItems.push({ key: Object.keys(PreviousItems).length, value: Items });
 				ClearItems();
+				if(Items != AllMainItems)
+				{
+					let NewItem = document.createElement("div");
+					NewItem.className = "grid-item";
+					NewItem.style = "background-image: url(./img/back.jpg)";
+					NewItem.innerHTML = "Back";
+					NewItem.onclick= (event) => 
+					{ 
+						let CurrentPage = PreviousItems.pop();	
+						let PreviousPage = PreviousItems.pop();
+						ShowItems(PreviousPage.value);
+					};
+					ItemList.append(NewItem);
+				}
 				Logo.innerHTML="<img src="+Items.IMG+">";
 				let CurrentItems = Object.keys(Items);
 				//console.log("Adding item start");
@@ -165,6 +179,19 @@
 				  ItemList.append(NewItem);
 				}
 				//console.log("Adding item end");
+				if(Items!=AllMainItems)
+				{
+					let NewItem = document.createElement("div");
+					NewItem.className = "grid-item";
+					NewItem.style = "background-image: url(./img/home.jpg)";
+					NewItem.innerHTML = "Home";
+					NewItem.onclick= (event) => 
+					{ 
+						PreviousItems = [];
+						ShowItems(AllMainItems); 
+					};
+					ItemList.append(NewItem);
+				}
 			}   
 			function AddItemToSelection(ItemToAdd)
 			{
