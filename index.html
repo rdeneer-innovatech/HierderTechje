@@ -173,7 +173,12 @@
 				  NewItem.innerHTML = CurrentItems[i];
 				  NewItem.onclick= (event) => 
 				  {
-					if(ItemOption.hasOwnProperty("Add")) { AddItemToSelection(CurrentItems[i]); }
+					console.log("Clicked on:");
+					console.log(ItemOption);
+					if(ItemOption.hasOwnProperty("Add")) 
+					{ 
+						AddItemToSelection(CurrentItems[i]);
+					}
 					else { ShowItems(ItemOption); }
 				  };
 				  ItemList.append(NewItem);
