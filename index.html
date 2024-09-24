@@ -63,7 +63,8 @@
 			let ItemList = document.getElementById("ItemList"); 
 			let SelectionList = document.getElementById("SelectionList"); 
 			let PreviousItems = [];
-			ShowItems(AllMainItems);
+			let PreviousClicked = [];
+			GoHome();
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
 			OrderSelection.className = "grid-item-selection";
@@ -152,19 +153,14 @@
 					{ 
 						let CurrentPage = PreviousItems.pop();	
 						let PreviousPage = PreviousItems.pop();
+						PreviousClicked.pop();
 						ShowItems(PreviousPage.value);
 					};
 					ItemList.append(NewItem);
 				}
 				Logo.innerHTML="<img src="+Items.IMG+">";
 				let CurrentItems = Object.keys(Items);
-				//console.log("Adding item start");
-				//console.log("Base object:");
-				//console.log(Items);
-				//console.log("Keys:");
-				//console.log(CurrentItems);
-
-				for (let i = 1; i < CurrentItems.length; i+=1) 
+				for (let i = 1; i < CurrentItems.length; i+=1) //Skip first value (should be IMG)
 				{
 				  let ItemOption = Items[CurrentItems[i]][0];
 				  let NewItem = document.createElement("div");
@@ -173,33 +169,38 @@
 				  NewItem.innerHTML = CurrentItems[i];
 				  NewItem.onclick= (event) => 
 				  {
-					console.log("Clicked on:");
+					console.log("Clicked on: "+CurrentItems[i]);
 					console.log(ItemOption);
+					PreviousClicked.push({ key: Object.keys(PreviousClicked).length, value: CurrentItems[i] });
 					if(ItemOption.hasOwnProperty("Add")) 
 					{ 
-						AddItemToSelection(CurrentItems[i]);
+						console.log(PreviousClicked);
+						let FullItemString = "";
+						for (let i = 0; i < Object.keys(PreviousClicked).length; i+=1) //Skip first value (should be IMG)
+						{
+							FullItemString+=PreviousClicked[i].value+"/";		
+						}
+						AddItemToSelection(FullItemString.substring(0, FullItemString.length - 1));
 					}
 					else { ShowItems(ItemOption); }
 				  };
 				  ItemList.append(NewItem);
 				}
-				//console.log("Adding item end");
 				if(Items!=AllMainItems)
 				{
 					let NewItem = document.createElement("div");
 					NewItem.className = "grid-item";
 					NewItem.style = "background-image: url(./img/home.jpg)";
 					NewItem.innerHTML = "Home";
-					NewItem.onclick= (event) => 
-					{ 
-						PreviousItems = [];
-						ShowItems(AllMainItems); 
-					};
+					NewItem.onclick= (event) => { GoHome(); };
 					ItemList.append(NewItem);
 				}
 			}   
 			function AddItemToSelection(ItemToAdd)
 			{
+				GoHome();
+				PreviousItems = [];
+				PreviousClicked = [];
 				ShowItems(AllMainItems);
 				console.log("Added to order list");
 				let NewItemSelection = document.createElement("div");
@@ -208,6 +209,13 @@
 				NewItemSelection.innerHTML = ItemToAdd;
 				SelectionList.append(NewItemSelection);
 				SelectionString = "";
+			}
+
+			function GoHome()
+			{
+				PreviousItems = [];
+				PreviousClicked = [];
+				ShowItems(AllMainItems);
 			}
       </script>
   </body>
