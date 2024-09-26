@@ -21,20 +21,6 @@ AllMainItems = {
 	}]}],
 
 
-"Vergaderlunch":
-	[{ "IMG": "'./img/Vergaderlunch.jpg'",
-		"Vergaderlunch standaard":
-	[{
-		"IMG": "'./img/Vergaderlunch standaard.jpg'"
-	}],	"Vergaderlunch extra":
-	[{
-		"IMG": "'./img/Vergaderlunch extra.jpg'"
-	}],	"Vergaderlunch luxe":
-	[{
-		"IMG": "'./img/Vergaderlunch luxe.jpg'"
-	}]}],
-
-
 "Belegde broodjes":
 	[{ "IMG": "'./img/Belegde broodjes.jpg'",
 		"Broodje Kaas":
@@ -62,12 +48,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -125,12 +111,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -188,12 +174,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -251,12 +237,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -314,12 +300,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -377,12 +363,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -440,12 +426,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -498,12 +484,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Italiaanse bol":
@@ -556,12 +542,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -614,12 +600,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -677,12 +663,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -740,12 +726,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -803,12 +789,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -866,12 +852,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -929,12 +915,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -987,12 +973,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1045,12 +1031,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1108,12 +1094,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Italiaanse bol":
@@ -1166,12 +1152,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1224,12 +1210,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1282,12 +1268,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Triangel":
@@ -1325,12 +1311,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Triangel":
@@ -1368,12 +1354,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Triangel":
@@ -1386,6 +1372,20 @@ AllMainItems = {
 			"IMG": "'./img/Ciabatta.jpg'",
 			"Add": "€"
 		}]
+	}]}],
+
+
+"Vergaderlunch":
+	[{ "IMG": "'./img/Vergaderlunch.jpg'",
+		"Vergaderlunch standaard":
+	[{
+		"IMG": "'./img/Vergaderlunch standaard.jpg'"
+	}],	"Vergaderlunch extra":
+	[{
+		"IMG": "'./img/Vergaderlunch extra.jpg'"
+	}],	"Vergaderlunch luxe":
+	[{
+		"IMG": "'./img/Vergaderlunch luxe.jpg'"
 	}]}],
 
 
@@ -1406,29 +1406,6 @@ AllMainItems = {
 	}],	"Friet speciaal":
 	[{
 		"IMG": "'./img/Friet speciaal.jpg'"
-	}]}],
-
-
-"Maaltijdsalades":
-	[{ "IMG": "'./img/Maaltijdsalades.jpg'",
-		"Salade Lardon":
-	[{
-		"IMG": "'./img/Salade Lardon.jpg'"
-	}],	"Salade Val-Dieu":
-	[{
-		"IMG": "'./img/Salade Val-Dieu.jpg'"
-	}],	"Salade carpaccio":
-	[{
-		"IMG": "'./img/Salade carpaccio.jpg'"
-	}],	"Salade gerookte zalm":
-	[{
-		"IMG": "'./img/Salade gerookte zalm.jpg'"
-	}],	"Salade kipfilet":
-	[{
-		"IMG": "'./img/Salade kipfilet.jpg'"
-	}],	"Salade scampi":
-	[{
-		"IMG": "'./img/Salade scampi.jpg'"
 	}]}],
 
 
@@ -1469,6 +1446,29 @@ AllMainItems = {
 	}],	"Focaccia serranoham":
 	[{
 		"IMG": "'./img/Focaccia serranoham.jpg'"
+	}]}],
+
+
+"Maaltijdsalades":
+	[{ "IMG": "'./img/Maaltijdsalades.jpg'",
+		"Salade Lardon":
+	[{
+		"IMG": "'./img/Salade Lardon.jpg'"
+	}],	"Salade Val-Dieu":
+	[{
+		"IMG": "'./img/Salade Val-Dieu.jpg'"
+	}],	"Salade carpaccio":
+	[{
+		"IMG": "'./img/Salade carpaccio.jpg'"
+	}],	"Salade gerookte zalm":
+	[{
+		"IMG": "'./img/Salade gerookte zalm.jpg'"
+	}],	"Salade kipfilet":
+	[{
+		"IMG": "'./img/Salade kipfilet.jpg'"
+	}],	"Salade scampi":
+	[{
+		"IMG": "'./img/Salade scampi.jpg'"
 	}]}],
 
 
@@ -1708,6 +1708,27 @@ AllMainItems = {
 	}],	"Italiaanse bol hete kip":
 	[{
 		"IMG": "'./img/Italiaanse bol hete kip.jpg'"
+	}],	"Saté met Stokbrood":
+	[{
+		"IMG": "'./img/Saté met Stokbrood.jpg'"
+	}],	"Pannenkoek":
+	[{
+		"IMG": "'./img/Pannenkoek.jpg'",
+		"Met spek":
+		[{
+			"IMG": "'./img/Met spek.jpg'",
+			"Add": "€"
+		}],
+		"Met appel":
+		[{
+			"IMG": "'./img/Met appel.jpg'",
+			"Add": "€"
+		}],
+		"Naturel":
+		[{
+			"IMG": "'./img/Naturel.jpg'",
+			"Add": "€"
+		}]
 	}]}],
 
 
@@ -1738,12 +1759,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1796,12 +1817,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1854,12 +1875,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1912,12 +1933,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -1970,12 +1991,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Panini":
@@ -2033,12 +2054,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Triangel":
@@ -2091,12 +2112,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -2149,12 +2170,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Triangel":
@@ -2207,12 +2228,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Panini":
@@ -2278,12 +2299,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -2336,12 +2357,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Triangel":
@@ -2394,12 +2415,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Afbak wit":
@@ -2470,12 +2491,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Ciabatta":
@@ -2533,12 +2554,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
@@ -2591,12 +2612,12 @@ AllMainItems = {
 		}],
 		"1/3 Stok wit":
 		[{
-			"IMG": "'./img/1/3 Stok wit.jpg'",
+			"IMG": "'./img/1-3 Stok wit.jpg'",
 			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
-			"IMG": "'./img/1/3 Stok bruin.jpg'",
+			"IMG": "'./img/1-3 Stok bruin.jpg'",
 			"Add": "€"
 		}],
 		"Panini":
