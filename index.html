@@ -107,7 +107,7 @@
 				let data = await response.text();
 				console.log(data);
 
-				alert("Request has been \n"+ data);
+				//alert("Request has been \n"+ data);
 			}
 			function ClearItems()
 			{
@@ -145,6 +145,7 @@
 				ClearItems();
 				if(Items != AllMainItems)
 				{
+					//add back button
 					let NewItem = document.createElement("div");
 					NewItem.className = "grid-item";
 					NewItem.style = "background-image: url(./img/back.jpg)";
@@ -170,24 +171,16 @@
 				  NewItem.onclick= (event) => 
 				  {
 					console.log("Clicked on: "+CurrentItems[i]);
-					console.log(ItemOption);
 					PreviousClicked.push({ key: Object.keys(PreviousClicked).length, value: CurrentItems[i] });
-					if(ItemOption.hasOwnProperty("Add")) 
-					{ 
-						console.log(PreviousClicked);
-						let FullItemString = "";
-						for (let i = 0; i < Object.keys(PreviousClicked).length; i+=1) //Skip first value (should be IMG)
-						{
-							FullItemString+=PreviousClicked[i].value+"/";		
-						}
-						AddItemToSelection(FullItemString.substring(0, FullItemString.length - 1));
-					}
-					else { ShowItems(ItemOption); }
+					ShowItems(ItemOption);
 				  };
 				  ItemList.append(NewItem);
 				}
-				if(Items!=AllMainItems)
+				//if there are no more items to show -> add to selection
+				if(CurrentItems.length == 1){ AddItemToSelection(); }
+				else if(Items!=AllMainItems && Object.keys(PreviousClicked).length > 1)
 				{
+					//Add home button
 					let NewItem = document.createElement("div");
 					NewItem.className = "grid-item";
 					NewItem.style = "background-image: url(./img/home.jpg)";
@@ -196,17 +189,27 @@
 					ItemList.append(NewItem);
 				}
 			}   
-			function AddItemToSelection(ItemToAdd)
+			function AddItemToSelection()
 			{
+				console.log(PreviousClicked);
+				let FullItemString = "";
+				for (let i = 0; i < Object.keys(PreviousClicked).length; i+=1) { FullItemString+=PreviousClicked[i].value+"/"; }
+				let ItemToAdd = FullItemString.substring(0, FullItemString.length - 1)
 				GoHome();
-				PreviousItems = [];
-				PreviousClicked = [];
-				ShowItems(AllMainItems);
 				console.log("Added to order list");
-				let NewItemSelection = document.createElement("div");
+				let NewID = "div"+1
+				let NewItemSelection = document.createElement(NewID);
 				NewItemSelection.className = "grid-item-selection";
-				console.log(History);
 				NewItemSelection.innerHTML = ItemToAdd;
+				NewItemSelection.onclick= (event) => 
+				{ 
+					//TODO
+					return;
+					if(confirm("Want to delete "+ItemToAdd+"?"))
+					{
+
+					}
+				};
 				SelectionList.append(NewItemSelection);
 				SelectionString = "";
 			}

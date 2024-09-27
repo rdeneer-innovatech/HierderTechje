@@ -11,12 +11,10 @@ AllMainItems = {
 		"Panini Mozzarella, ham, kaas, mozzarella, tomaat en basilicum":
 		[{
 			"IMG": "'./img/Panini Mozzarella, ham, kaas, mozzarella, tomaat en basilicum.jpg'",
-			"Add": "€"
 		}],
 		"Panini Gerookte zalm petrella, gerookte zalm en dille":
 		[{
 			"IMG": "'./img/Panini Gerookte zalm petrella, gerookte zalm en dille.jpg'",
-			"Add": "€"
 		}]
 	}]}],
 
@@ -29,62 +27,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Cervelaat":
 	[{
@@ -92,62 +78,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Paté":
 	[{
@@ -155,62 +129,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Ham":
 	[{
@@ -218,62 +180,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Oude Kaas":
 	[{
@@ -281,62 +231,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Brie":
 	[{
@@ -344,62 +282,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Rosbief":
 	[{
@@ -407,57 +333,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Serranoham":
 	[{
@@ -465,57 +380,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Gezond":
 	[{
@@ -523,57 +427,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Eiersalade":
 	[{
@@ -581,62 +474,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Zalmsalade":
 	[{
@@ -644,62 +525,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Tonijnsalade":
 	[{
@@ -707,62 +576,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Kipkerriesalade":
 	[{
@@ -770,62 +627,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Koolsalade":
 	[{
@@ -833,62 +678,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Krabsalade":
 	[{
@@ -896,57 +729,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Gerookte Zalm":
 	[{
@@ -954,57 +776,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Filet Americain":
 	[{
@@ -1012,62 +823,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Martino":
 	[{
@@ -1075,57 +874,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Carpaccio":
 	[{
@@ -1133,57 +921,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Gehakt":
 	[{
@@ -1191,57 +968,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje hagelslag":
 	[{
@@ -1249,42 +1015,34 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje chocopasta":
 	[{
@@ -1292,42 +1050,34 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje gekookt ei":
 	[{
@@ -1335,42 +1085,34 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}]
 	}]}],
 
@@ -1409,46 +1151,6 @@ AllMainItems = {
 	}]}],
 
 
-"Specialiteiten":
-	[{ "IMG": "'./img/Specialiteiten.jpg'",
-		"Italiaanse bol gehakt speciaal":
-	[{
-		"IMG": "'./img/Italiaanse bol gehakt speciaal.jpg'"
-	}],	"Clubsandwich kipfilet":
-	[{
-		"IMG": "'./img/Clubsandwich kipfilet.jpg'"
-	}],	"Italiaanse bol kipfilet speciaal":
-	[{
-		"IMG": "'./img/Italiaanse bol kipfilet speciaal.jpg'",
-		"Italiaanse bol":
-		[{
-			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
-		}],
-		"HVH Stokbrood wit":
-		[{
-			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
-		}],
-		"Stokbrood":
-		[{
-			"IMG": "'./img/Stokbrood.jpg'",
-			"Add": "€"
-		}],
-		"Club":
-		[{
-			"IMG": "'./img/Club.jpg'",
-			"Add": "€"
-		}]
-	}],	"Clubsandwich gerookte zalm":
-	[{
-		"IMG": "'./img/Clubsandwich gerookte zalm.jpg'"
-	}],	"Focaccia serranoham":
-	[{
-		"IMG": "'./img/Focaccia serranoham.jpg'"
-	}]}],
-
-
 "Maaltijdsalades":
 	[{ "IMG": "'./img/Maaltijdsalades.jpg'",
 		"Salade Lardon":
@@ -1469,6 +1171,42 @@ AllMainItems = {
 	}],	"Salade scampi":
 	[{
 		"IMG": "'./img/Salade scampi.jpg'"
+	}]}],
+
+
+"Specialiteiten":
+	[{ "IMG": "'./img/Specialiteiten.jpg'",
+		"Italiaanse bol gehakt speciaal":
+	[{
+		"IMG": "'./img/Italiaanse bol gehakt speciaal.jpg'"
+	}],	"Clubsandwich kipfilet":
+	[{
+		"IMG": "'./img/Clubsandwich kipfilet.jpg'"
+	}],	"Italiaanse bol kipfilet speciaal":
+	[{
+		"IMG": "'./img/Italiaanse bol kipfilet speciaal.jpg'",
+		"Italiaanse bol":
+		[{
+			"IMG": "'./img/Italiaanse bol.jpg'",
+		}],
+		"HVH Stokbrood wit":
+		[{
+			"IMG": "'./img/HVH Stokbrood wit.jpg'",
+		}],
+		"Stokbrood":
+		[{
+			"IMG": "'./img/Stokbrood.jpg'",
+		}],
+		"Club":
+		[{
+			"IMG": "'./img/Club.jpg'",
+		}]
+	}],	"Clubsandwich gerookte zalm":
+	[{
+		"IMG": "'./img/Clubsandwich gerookte zalm.jpg'"
+	}],	"Focaccia serranoham":
+	[{
+		"IMG": "'./img/Focaccia serranoham.jpg'"
 	}]}],
 
 
@@ -1568,17 +1306,14 @@ AllMainItems = {
 		"Rood":
 		[{
 			"IMG": "'./img/Rood.jpg'",
-			"Add": "€"
 		}],
 		"Medium":
 		[{
 			"IMG": "'./img/Medium.jpg'",
-			"Add": "€"
 		}],
 		"Doorbakken":
 		[{
 			"IMG": "'./img/Doorbakken.jpg'",
-			"Add": "€"
 		}]
 	}],	"Bami Hepke Speciaal":
 	[{
@@ -1621,32 +1356,26 @@ AllMainItems = {
 		"Naturel":
 		[{
 			"IMG": "'./img/Naturel.jpg'",
-			"Add": "€"
 		}],
 		"Met ham":
 		[{
 			"IMG": "'./img/Met ham.jpg'",
-			"Add": "€"
 		}],
 		"Met kaas":
 		[{
 			"IMG": "'./img/Met kaas.jpg'",
-			"Add": "€"
 		}],
 		"Met ham en kaas":
 		[{
 			"IMG": "'./img/Met ham en kaas.jpg'",
-			"Add": "€"
 		}],
 		"Met rosbief":
 		[{
 			"IMG": "'./img/Met rosbief.jpg'",
-			"Add": "€"
 		}],
 		"Met serranoham":
 		[{
 			"IMG": "'./img/Met serranoham.jpg'",
-			"Add": "€"
 		}]
 	}],	"Uitsmijter (groot 3 eieren)":
 	[{
@@ -1654,32 +1383,26 @@ AllMainItems = {
 		"Naturel":
 		[{
 			"IMG": "'./img/Naturel.jpg'",
-			"Add": "€"
 		}],
 		"Met ham":
 		[{
 			"IMG": "'./img/Met ham.jpg'",
-			"Add": "€"
 		}],
 		"Met kaas":
 		[{
 			"IMG": "'./img/Met kaas.jpg'",
-			"Add": "€"
 		}],
 		"Met ham en kaas":
 		[{
 			"IMG": "'./img/Met ham en kaas.jpg'",
-			"Add": "€"
 		}],
 		"Met rosbief":
 		[{
 			"IMG": "'./img/Met rosbief.jpg'",
-			"Add": "€"
 		}],
 		"Met serranoham":
 		[{
 			"IMG": "'./img/Met serranoham.jpg'",
-			"Add": "€"
 		}]
 	}],	"Boerenomelet met spek":
 	[{
@@ -1717,17 +1440,14 @@ AllMainItems = {
 		"Met spek":
 		[{
 			"IMG": "'./img/Met spek.jpg'",
-			"Add": "€"
 		}],
 		"Met appel":
 		[{
 			"IMG": "'./img/Met appel.jpg'",
-			"Add": "€"
 		}],
 		"Naturel":
 		[{
 			"IMG": "'./img/Naturel.jpg'",
-			"Add": "€"
 		}]
 	}]}],
 
@@ -1740,57 +1460,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Salami-Brie":
 	[{
@@ -1798,57 +1507,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Mozzarella-Pesto":
 	[{
@@ -1856,57 +1554,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Val-Dieu-Honing-Dille":
 	[{
@@ -1914,57 +1601,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Sjerp":
 	[{
@@ -1972,62 +1648,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Spek en ei":
 	[{
@@ -2035,57 +1699,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Omelet":
 	[{
@@ -2093,57 +1746,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Mexicano":
 	[{
@@ -2151,57 +1793,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Mexicano Speciaal":
 	[{
@@ -2209,62 +1840,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Kroket":
 	[{
@@ -2272,22 +1891,18 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne":
 		[{
 			"IMG": "'./img/Pain dArdenne.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Superkroket":
 	[{
@@ -2295,42 +1910,34 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Frikandel":
 	[{
@@ -2338,57 +1945,46 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Frikandel Speciaal":
 	[{
@@ -2396,67 +1992,54 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje ":
 		[{
 			"IMG": "'./img/Bruin zacht broodje .jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Afbak wit":
 		[{
 			"IMG": "'./img/Afbak wit.jpg'",
-			"Add": "€"
 		}],
 		"Afbak bruin":
 		[{
 			"IMG": "'./img/Afbak bruin.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}]
 	}],	"Bol Superburger":
 	[{
@@ -2464,7 +2047,6 @@ AllMainItems = {
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Kiphaas Krokant":
 	[{
@@ -2472,77 +2054,62 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Cocktailsaus":
 		[{
 			"IMG": "'./img/Cocktailsaus.jpg'",
-			"Add": "€"
 		}],
 		"Chilisaus":
 		[{
 			"IMG": "'./img/Chilisaus.jpg'",
-			"Add": "€"
 		}],
 		"Mayonaise":
 		[{
 			"IMG": "'./img/Mayonaise.jpg'",
-			"Add": "€"
 		}],
 		"...":
 		[{
 			"IMG": "'./img/....jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Stoomboot":
 	[{
@@ -2550,42 +2117,34 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}]
 	}],	"Broodje Warme Beenham":
 	[{
@@ -2593,62 +2152,50 @@ AllMainItems = {
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/Wit zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Bruin zacht broodje":
 		[{
 			"IMG": "'./img/Bruin zacht broodje.jpg'",
-			"Add": "€"
 		}],
 		"Petit pain wit":
 		[{
 			"IMG": "'./img/Petit pain wit.jpg'",
-			"Add": "€"
 		}],
 		"Pain d'Ardenne bruin":
 		[{
 			"IMG": "'./img/Pain dArdenne bruin.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok wit":
 		[{
 			"IMG": "'./img/1-3 Stok wit.jpg'",
-			"Add": "€"
 		}],
 		"1/3 Stok bruin":
 		[{
 			"IMG": "'./img/1-3 Stok bruin.jpg'",
-			"Add": "€"
 		}],
 		"Panini":
 		[{
 			"IMG": "'./img/Panini.jpg'",
-			"Add": "€"
 		}],
 		"Triangel":
 		[{
 			"IMG": "'./img/Triangel.jpg'",
-			"Add": "€"
 		}],
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/Italiaanse bol.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood wit":
 		[{
 			"IMG": "'./img/HVH Stokbrood wit.jpg'",
-			"Add": "€"
 		}],
 		"HVH Stokbrood bruin":
 		[{
 			"IMG": "'./img/HVH Stokbrood bruin.jpg'",
-			"Add": "€"
 		}],
 		"Ciabatta":
 		[{
 			"IMG": "'./img/Ciabatta.jpg'",
-			"Add": "€"
 		}]
 	}],	"Chiabatta Roerei, met Petrella en Gerookte zalm":
 	[{
@@ -2664,7 +2211,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Spa Rood":
 	[{
@@ -2672,7 +2218,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Pepsi cola fles":
 	[{
@@ -2680,7 +2225,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Pepsi Max cola fles":
 	[{
@@ -2688,7 +2232,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Ice tea Lemon fles":
 	[{
@@ -2696,7 +2239,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Ice tea Peach fles":
 	[{
@@ -2704,7 +2246,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Ice tea prik fles":
 	[{
@@ -2712,7 +2253,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Ice tea Green fles":
 	[{
@@ -2720,7 +2260,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Fles melk":
 	[{
@@ -2728,7 +2267,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Fles 7up":
 	[{
@@ -2736,7 +2274,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Fles Sisi":
 	[{
@@ -2744,7 +2281,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Fles Appelsap":
 	[{
@@ -2755,7 +2291,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"7up blik":
 	[{
@@ -2763,7 +2298,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Pepsi cola blik":
 	[{
@@ -2771,7 +2305,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Pepsi Max cola blik":
 	[{
@@ -2779,7 +2312,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Ice tea blik":
 	[{
@@ -2787,7 +2319,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Redbull blik":
 	[{
@@ -2795,7 +2326,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Fristi blik":
 	[{
@@ -2803,7 +2333,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Chocomel blik":
 	[{
@@ -2811,7 +2340,6 @@ AllMainItems = {
 		"Statiegeld":
 		[{
 			"IMG": "'./img/Statiegeld.jpg'",
-			"Add": "€"
 		}]
 	}],	"Koffie take away":
 	[{
