@@ -1,5 +1,5 @@
 AllMainItems = {
-	"IMG": "./img/Logo.png",
+	"IMG": "./img/logo.png",
 
 
 
