@@ -7,7 +7,7 @@ AllMainItems = {
 	[{ "IMG": "'./img/paninis.jpg'",
 		"Panini":
 	[{
-		"IMG": "'./img/Panini.jpg'",
+		"IMG": "'./img/panini.jpg'",
 		"Panini Mozzarella, ham, kaas, mozzarella, tomaat en basilicum":
 		[{
 			"IMG": "'./img/panini mozzarella, ham, kaas, mozzarella, tomaat en basilicum.jpg'",
@@ -23,13 +23,13 @@ AllMainItems = {
 	[{ "IMG": "'./img/vergaderlunch.jpg'",
 		"Vergaderlunch standaard":
 	[{
-		"IMG": "'./img/Vergaderlunch standaard.jpg'"
+		"IMG": "'./img/vergaderlunch standaard.jpg'"
 	}],	"Vergaderlunch extra":
 	[{
-		"IMG": "'./img/Vergaderlunch extra.jpg'"
+		"IMG": "'./img/vergaderlunch extra.jpg'"
 	}],	"Vergaderlunch luxe":
 	[{
-		"IMG": "'./img/Vergaderlunch luxe.jpg'"
+		"IMG": "'./img/vergaderlunch luxe.jpg'"
 	}]}],
 
 
@@ -37,19 +37,42 @@ AllMainItems = {
 	[{ "IMG": "'./img/fries.jpg'",
 		"Friet zonder":
 	[{
-		"IMG": "'./img/Friet zonder.jpg'"
+		"IMG": "'./img/friet zonder.jpg'"
 	}],	"Friet mayo":
 	[{
-		"IMG": "'./img/Friet mayo.jpg'"
+		"IMG": "'./img/friet mayo.jpg'"
 	}],	"Friet oorlog":
 	[{
-		"IMG": "'./img/Friet oorlog.jpg'"
+		"IMG": "'./img/friet oorlog.jpg'"
 	}],	"Friet satésaus":
 	[{
-		"IMG": "'./img/Friet satésaus.jpg'"
+		"IMG": "'./img/friet satésaus.jpg'"
 	}],	"Friet speciaal":
 	[{
-		"IMG": "'./img/Friet speciaal.jpg'"
+		"IMG": "'./img/friet speciaal.jpg'"
+	}]}],
+
+
+"Maaltijdsalades":
+	[{ "IMG": "'./img/maaltijdsalades.jpg'",
+		"Salade Lardon":
+	[{
+		"IMG": "'./img/salade lardon.jpg'"
+	}],	"Salade Val-Dieu":
+	[{
+		"IMG": "'./img/salade val-dieu.jpg'"
+	}],	"Salade carpaccio":
+	[{
+		"IMG": "'./img/salade carpaccio.jpg'"
+	}],	"Salade gerookte zalm":
+	[{
+		"IMG": "'./img/salade gerookte zalm.jpg'"
+	}],	"Salade kipfilet":
+	[{
+		"IMG": "'./img/salade kipfilet.jpg'"
+	}],	"Salade scampi":
+	[{
+		"IMG": "'./img/salade scampi.jpg'"
 	}]}],
 
 
@@ -57,13 +80,13 @@ AllMainItems = {
 	[{ "IMG": "'./img/specialiteiten.jpg'",
 		"Italiaanse bol gehakt speciaal":
 	[{
-		"IMG": "'./img/Italiaanse bol gehakt speciaal.jpg'"
+		"IMG": "'./img/italiaanse bol gehakt speciaal.jpg'"
 	}],	"Clubsandwich kipfilet":
 	[{
-		"IMG": "'./img/Clubsandwich kipfilet.jpg'"
+		"IMG": "'./img/clubsandwich kipfilet.jpg'"
 	}],	"Italiaanse bol kipfilet speciaal":
 	[{
-		"IMG": "'./img/Italiaanse bol kipfilet speciaal.jpg'",
+		"IMG": "'./img/italiaanse bol kipfilet speciaal.jpg'",
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/italiaanse bol.jpg'",
@@ -82,33 +105,10 @@ AllMainItems = {
 		}]
 	}],	"Clubsandwich gerookte zalm":
 	[{
-		"IMG": "'./img/Clubsandwich gerookte zalm.jpg'"
+		"IMG": "'./img/clubsandwich gerookte zalm.jpg'"
 	}],	"Focaccia serranoham":
 	[{
-		"IMG": "'./img/Focaccia serranoham.jpg'"
-	}]}],
-
-
-"Maaltijdsalades":
-	[{ "IMG": "'./img/maaltijdsalades.jpg'",
-		"Salade Lardon":
-	[{
-		"IMG": "'./img/Salade Lardon.jpg'"
-	}],	"Salade Val-Dieu":
-	[{
-		"IMG": "'./img/Salade Val-Dieu.jpg'"
-	}],	"Salade carpaccio":
-	[{
-		"IMG": "'./img/Salade carpaccio.jpg'"
-	}],	"Salade gerookte zalm":
-	[{
-		"IMG": "'./img/Salade gerookte zalm.jpg'"
-	}],	"Salade kipfilet":
-	[{
-		"IMG": "'./img/Salade kipfilet.jpg'"
-	}],	"Salade scampi":
-	[{
-		"IMG": "'./img/Salade scampi.jpg'"
+		"IMG": "'./img/focaccia serranoham.jpg'"
 	}]}],
 
 
@@ -116,28 +116,28 @@ AllMainItems = {
 	[{ "IMG": "'./img/snacks en tussendoortjes.jpg'",
 		"Frikandel":
 	[{
-		"IMG": "'./img/Frikandel.jpg'"
+		"IMG": "'./img/frikandel.jpg'"
 	}],	"Kroket":
 	[{
-		"IMG": "'./img/Kroket.jpg'"
+		"IMG": "'./img/kroket.jpg'"
 	}],	"Superkroket 170 gram":
 	[{
-		"IMG": "'./img/Superkroket 170 gram.jpg'"
+		"IMG": "'./img/superkroket 170 gram.jpg'"
 	}],	"Frikandel Speciaal":
 	[{
-		"IMG": "'./img/Frikandel Speciaal.jpg'"
+		"IMG": "'./img/frikandel speciaal.jpg'"
 	}],	"Mexicano":
 	[{
-		"IMG": "'./img/Mexicano.jpg'"
+		"IMG": "'./img/mexicano.jpg'"
 	}],	"Tosti Ham kaas":
 	[{
-		"IMG": "'./img/Tosti Ham kaas.jpg'"
+		"IMG": "'./img/tosti ham kaas.jpg'"
 	}],	"Tosti Hawai":
 	[{
-		"IMG": "'./img/Tosti Hawai.jpg'"
+		"IMG": "'./img/tosti hawai.jpg'"
 	}],	"Super Tosti":
 	[{
-		"IMG": "'./img/Super Tosti.jpg'"
+		"IMG": "'./img/super tosti.jpg'"
 	}]}],
 
 
@@ -145,34 +145,34 @@ AllMainItems = {
 	[{ "IMG": "'./img/sauces.jpg'",
 		"Appelmoes":
 	[{
-		"IMG": "'./img/Appelmoes.jpg'"
+		"IMG": "'./img/appelmoes.jpg'"
 	}],	"Curry":
 	[{
-		"IMG": "'./img/Curry.jpg'"
+		"IMG": "'./img/curry.jpg'"
 	}],	"Chilisaus":
 	[{
-		"IMG": "'./img/Chilisaus.jpg'"
+		"IMG": "'./img/chilisaus.jpg'"
 	}],	"Ketchup":
 	[{
-		"IMG": "'./img/Ketchup.jpg'"
+		"IMG": "'./img/ketchup.jpg'"
 	}],	"Mayonaise":
 	[{
-		"IMG": "'./img/Mayonaise.jpg'"
+		"IMG": "'./img/mayonaise.jpg'"
 	}],	"Mosterd":
 	[{
-		"IMG": "'./img/Mosterd.jpg'"
+		"IMG": "'./img/mosterd.jpg'"
 	}],	"Satésaus":
 	[{
-		"IMG": "'./img/Satésaus.jpg'"
+		"IMG": "'./img/satésaus.jpg'"
 	}],	"Kruidenboter":
 	[{
-		"IMG": "'./img/Kruidenboter.jpg'"
+		"IMG": "'./img/kruidenboter.jpg'"
 	}],	"Cocktailsaus":
 	[{
-		"IMG": "'./img/Cocktailsaus.jpg'"
+		"IMG": "'./img/cocktailsaus.jpg'"
 	}],	"Sambal":
 	[{
-		"IMG": "'./img/Sambal.jpg'"
+		"IMG": "'./img/sambal.jpg'"
 	}]}],
 
 
@@ -180,31 +180,31 @@ AllMainItems = {
 	[{ "IMG": "'./img/menus.jpg'",
 		"Superburgerschotel":
 	[{
-		"IMG": "'./img/Superburgerschotel.jpg'"
+		"IMG": "'./img/superburgerschotel.jpg'"
 	}],	"Gyrosschotel":
 	[{
-		"IMG": "'./img/Gyrosschotel.jpg'"
+		"IMG": "'./img/gyrosschotel.jpg'"
 	}],	"Kebabschotel":
 	[{
-		"IMG": "'./img/Kebabschotel.jpg'"
+		"IMG": "'./img/kebabschotel.jpg'"
 	}],	"Zuurvleesschotel":
 	[{
-		"IMG": "'./img/Zuurvleesschotel.jpg'"
+		"IMG": "'./img/zuurvleesschotel.jpg'"
 	}],	"Satéschotel":
 	[{
-		"IMG": "'./img/Satéschotel.jpg'"
+		"IMG": "'./img/satéschotel.jpg'"
 	}],	"Ragoutschotel":
 	[{
-		"IMG": "'./img/Ragoutschotel.jpg'"
+		"IMG": "'./img/ragoutschotel.jpg'"
 	}],	"Hete Kip schotel":
 	[{
-		"IMG": "'./img/Hete Kip schotel.jpg'"
+		"IMG": "'./img/hete kip schotel.jpg'"
 	}],	"Schnitzel naturel":
 	[{
-		"IMG": "'./img/Schnitzel naturel.jpg'"
+		"IMG": "'./img/schnitzel naturel.jpg'"
 	}],	"Biefstuk naturel":
 	[{
-		"IMG": "'./img/Biefstuk naturel.jpg'",
+		"IMG": "'./img/biefstuk naturel.jpg'",
 		"Rood":
 		[{
 			"IMG": "'./img/rood.jpg'",
@@ -219,19 +219,19 @@ AllMainItems = {
 		}]
 	}],	"Bami Hepke Speciaal":
 	[{
-		"IMG": "'./img/Bami Hepke Speciaal.jpg'"
+		"IMG": "'./img/bami hepke speciaal.jpg'"
 	}],	"Nasi Hepke Speciaal":
 	[{
-		"IMG": "'./img/Nasi Hepke Speciaal.jpg'"
+		"IMG": "'./img/nasi hepke speciaal.jpg'"
 	}],	"Penne Arabiata":
 	[{
-		"IMG": "'./img/Penne Arabiata.jpg'"
+		"IMG": "'./img/penne arabiata.jpg'"
 	}],	"Penne Kruidige Kip":
 	[{
-		"IMG": "'./img/Penne Kruidige Kip.jpg'"
+		"IMG": "'./img/penne kruidige kip.jpg'"
 	}],	"Vega pasta":
 	[{
-		"IMG": "'./img/Vega pasta.jpg'"
+		"IMG": "'./img/vega pasta.jpg'"
 	}]}],
 
 
@@ -239,22 +239,22 @@ AllMainItems = {
 	[{ "IMG": "'./img/voor de kleine honger.jpg'",
 		"Tomatensoep":
 	[{
-		"IMG": "'./img/Tomatensoep.jpg'"
+		"IMG": "'./img/tomatensoep.jpg'"
 	}],	"Kippensoep":
 	[{
-		"IMG": "'./img/Kippensoep.jpg'"
+		"IMG": "'./img/kippensoep.jpg'"
 	}],	"Dagsoep klein":
 	[{
-		"IMG": "'./img/Dagsoep klein.jpg'"
+		"IMG": "'./img/dagsoep klein.jpg'"
 	}],	"Dagsoep groot":
 	[{
-		"IMG": "'./img/Dagsoep groot.jpg'"
+		"IMG": "'./img/dagsoep groot.jpg'"
 	}],	"Uiensoep groot":
 	[{
-		"IMG": "'./img/Uiensoep groot.jpg'"
+		"IMG": "'./img/uiensoep groot.jpg'"
 	}],	"Uitsmijter (klein 2 eieren)":
 	[{
-		"IMG": "'./img/Uitsmijter (klein 2 eieren).jpg'",
+		"IMG": "'./img/uitsmijter (klein 2 eieren).jpg'",
 		"Naturel":
 		[{
 			"IMG": "'./img/naturel.jpg'",
@@ -281,7 +281,7 @@ AllMainItems = {
 		}]
 	}],	"Uitsmijter (groot 3 eieren)":
 	[{
-		"IMG": "'./img/Uitsmijter (groot 3 eieren).jpg'",
+		"IMG": "'./img/uitsmijter (groot 3 eieren).jpg'",
 		"Naturel":
 		[{
 			"IMG": "'./img/naturel.jpg'",
@@ -308,37 +308,37 @@ AllMainItems = {
 		}]
 	}],	"Boerenomelet met spek":
 	[{
-		"IMG": "'./img/Boerenomelet met spek.jpg'"
+		"IMG": "'./img/boerenomelet met spek.jpg'"
 	}],	"Spek en Ei met Roggebrood":
 	[{
-		"IMG": "'./img/Spek en Ei met Roggebrood.jpg'"
+		"IMG": "'./img/spek en ei met roggebrood.jpg'"
 	}],	"Bami met 3 spiegeleieren":
 	[{
-		"IMG": "'./img/Bami met 3 spiegeleieren.jpg'"
+		"IMG": "'./img/bami met 3 spiegeleieren.jpg'"
 	}],	"Nasi met 3 spiegeleieren":
 	[{
-		"IMG": "'./img/Nasi met 3 spiegeleieren.jpg'"
+		"IMG": "'./img/nasi met 3 spiegeleieren.jpg'"
 	}],	"Pasteitje":
 	[{
-		"IMG": "'./img/Pasteitje.jpg'"
+		"IMG": "'./img/pasteitje.jpg'"
 	}],	"Broodje Gyros":
 	[{
-		"IMG": "'./img/Broodje Gyros.jpg'"
+		"IMG": "'./img/broodje gyros.jpg'"
 	}],	"Broodje Kebab":
 	[{
-		"IMG": "'./img/Broodje Kebab.jpg'"
+		"IMG": "'./img/broodje kebab.jpg'"
 	}],	"Chili Con Carne":
 	[{
-		"IMG": "'./img/Chili Con Carne.jpg'"
+		"IMG": "'./img/chili con carne.jpg'"
 	}],	"Italiaanse bol hete kip":
 	[{
-		"IMG": "'./img/Italiaanse bol hete kip.jpg'"
+		"IMG": "'./img/italiaanse bol hete kip.jpg'"
 	}],	"Saté met Stokbrood":
 	[{
-		"IMG": "'./img/Saté met Stokbrood.jpg'"
+		"IMG": "'./img/saté met stokbrood.jpg'"
 	}],	"Pannenkoek":
 	[{
-		"IMG": "'./img/Pannenkoek.jpg'",
+		"IMG": "'./img/pannenkoek.jpg'",
 		"Met spek":
 		[{
 			"IMG": "'./img/met spek.jpg'",
@@ -358,7 +358,7 @@ AllMainItems = {
 	[{ "IMG": "'./img/warm belegde broodjes.jpg'",
 		"Broodje Ham-Kaas-Tomaat-Ui":
 	[{
-		"IMG": "'./img/Broodje Ham-Kaas-Tomaat-Ui.jpg'",
+		"IMG": "'./img/broodje ham-kaas-tomaat-ui.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -405,7 +405,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Salami-Brie":
 	[{
-		"IMG": "'./img/Broodje Salami-Brie.jpg'",
+		"IMG": "'./img/broodje salami-brie.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -452,7 +452,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Mozzarella-Pesto":
 	[{
-		"IMG": "'./img/Broodje Mozzarella-Pesto.jpg'",
+		"IMG": "'./img/broodje mozzarella-pesto.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -499,7 +499,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Val-Dieu-Honing-Dille":
 	[{
-		"IMG": "'./img/Broodje Val-Dieu-Honing-Dille.jpg'",
+		"IMG": "'./img/broodje val-dieu-honing-dille.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -546,7 +546,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Sjerp":
 	[{
-		"IMG": "'./img/Broodje Sjerp.jpg'",
+		"IMG": "'./img/broodje sjerp.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -597,7 +597,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Spek en ei":
 	[{
-		"IMG": "'./img/Broodje Spek en ei.jpg'",
+		"IMG": "'./img/broodje spek en ei.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -644,7 +644,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Omelet":
 	[{
-		"IMG": "'./img/Broodje Omelet.jpg'",
+		"IMG": "'./img/broodje omelet.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -691,7 +691,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Mexicano":
 	[{
-		"IMG": "'./img/Broodje Mexicano.jpg'",
+		"IMG": "'./img/broodje mexicano.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -738,7 +738,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Mexicano Speciaal":
 	[{
-		"IMG": "'./img/Broodje Mexicano Speciaal.jpg'",
+		"IMG": "'./img/broodje mexicano speciaal.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -789,7 +789,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Kroket":
 	[{
-		"IMG": "'./img/Broodje Kroket.jpg'",
+		"IMG": "'./img/broodje kroket.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -808,7 +808,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Superkroket":
 	[{
-		"IMG": "'./img/Broodje Superkroket.jpg'",
+		"IMG": "'./img/broodje superkroket.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -843,7 +843,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Frikandel":
 	[{
-		"IMG": "'./img/Broodje Frikandel.jpg'",
+		"IMG": "'./img/broodje frikandel.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -890,7 +890,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Frikandel Speciaal":
 	[{
-		"IMG": "'./img/Broodje Frikandel Speciaal.jpg'",
+		"IMG": "'./img/broodje frikandel speciaal.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -945,14 +945,14 @@ AllMainItems = {
 		}]
 	}],	"Bol Superburger":
 	[{
-		"IMG": "'./img/Bol Superburger.jpg'",
+		"IMG": "'./img/bol superburger.jpg'",
 		"Italiaanse bol":
 		[{
 			"IMG": "'./img/italiaanse bol.jpg'",
 		}]
 	}],	"Broodje Kiphaas Krokant":
 	[{
-		"IMG": "'./img/Broodje Kiphaas Krokant.jpg'",
+		"IMG": "'./img/broodje kiphaas krokant.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1015,7 +1015,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Stoomboot":
 	[{
-		"IMG": "'./img/Broodje Stoomboot.jpg'",
+		"IMG": "'./img/broodje stoomboot.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1050,7 +1050,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Warme Beenham":
 	[{
-		"IMG": "'./img/Broodje Warme Beenham.jpg'",
+		"IMG": "'./img/broodje warme beenham.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1101,7 +1101,7 @@ AllMainItems = {
 		}]
 	}],	"Chiabatta Roerei, met Petrella en Gerookte zalm":
 	[{
-		"IMG": "'./img/Chiabatta Roerei, met Petrella en Gerookte zalm.jpg'"
+		"IMG": "'./img/chiabatta roerei, met petrella en gerookte zalm.jpg'"
 	}]}],
 
 
@@ -1109,87 +1109,87 @@ AllMainItems = {
 	[{ "IMG": "'./img/drinks.jpg'",
 		"Spa Blauw":
 	[{
-		"IMG": "'./img/Spa Blauw.jpg'",
+		"IMG": "'./img/spa blauw.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Spa Rood":
 	[{
-		"IMG": "'./img/Spa Rood.jpg'",
+		"IMG": "'./img/spa rood.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Pepsi cola fles":
 	[{
-		"IMG": "'./img/Pepsi cola fles.jpg'",
+		"IMG": "'./img/pepsi cola fles.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Pepsi Max cola fles":
 	[{
-		"IMG": "'./img/Pepsi Max cola fles.jpg'",
+		"IMG": "'./img/pepsi max cola fles.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Ice tea Lemon fles":
 	[{
-		"IMG": "'./img/Ice tea Lemon fles.jpg'",
+		"IMG": "'./img/ice tea lemon fles.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Ice tea Peach fles":
 	[{
-		"IMG": "'./img/Ice tea Peach fles.jpg'",
+		"IMG": "'./img/ice tea peach fles.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Ice tea prik fles":
 	[{
-		"IMG": "'./img/Ice tea prik fles.jpg'",
+		"IMG": "'./img/ice tea prik fles.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Ice tea Green fles":
 	[{
-		"IMG": "'./img/Ice tea Green fles.jpg'",
+		"IMG": "'./img/ice tea green fles.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Fles melk":
 	[{
-		"IMG": "'./img/Fles melk.jpg'",
+		"IMG": "'./img/fles melk.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Fles 7up":
 	[{
-		"IMG": "'./img/Fles 7up.jpg'",
+		"IMG": "'./img/fles 7up.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Fles Sisi":
 	[{
-		"IMG": "'./img/Fles Sisi.jpg'",
+		"IMG": "'./img/fles sisi.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Fles Appelsap":
 	[{
-		"IMG": "'./img/Fles Appelsap.jpg'"
+		"IMG": "'./img/fles appelsap.jpg'"
 	}],	"Sisi blik":
 	[{
-		"IMG": "'./img/Sisi blik.jpg'",
+		"IMG": "'./img/sisi blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
@@ -1203,49 +1203,49 @@ AllMainItems = {
 		}]
 	}],	"Pepsi cola blik":
 	[{
-		"IMG": "'./img/Pepsi cola blik.jpg'",
+		"IMG": "'./img/pepsi cola blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Pepsi Max cola blik":
 	[{
-		"IMG": "'./img/Pepsi Max cola blik.jpg'",
+		"IMG": "'./img/pepsi max cola blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Ice tea blik":
 	[{
-		"IMG": "'./img/Ice tea blik.jpg'",
+		"IMG": "'./img/ice tea blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Redbull blik":
 	[{
-		"IMG": "'./img/Redbull blik.jpg'",
+		"IMG": "'./img/redbull blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Fristi blik":
 	[{
-		"IMG": "'./img/Fristi blik.jpg'",
+		"IMG": "'./img/fristi blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Chocomel blik":
 	[{
-		"IMG": "'./img/Chocomel blik.jpg'",
+		"IMG": "'./img/chocomel blik.jpg'",
 		"Statiegeld":
 		[{
 			"IMG": "'./img/statiegeld.jpg'",
 		}]
 	}],	"Koffie take away":
 	[{
-		"IMG": "'./img/Koffie take away.jpg'"
+		"IMG": "'./img/koffie take away.jpg'"
 	}]}],
 
 
@@ -1253,7 +1253,7 @@ AllMainItems = {
 	[{ "IMG": "'./img/belegde broodjes.jpg'",
 		"Broodje Kaas":
 	[{
-		"IMG": "'./img/Broodje Kaas.jpg'",
+		"IMG": "'./img/broodje kaas.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1304,7 +1304,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Cervelaat":
 	[{
-		"IMG": "'./img/Broodje Cervelaat.jpg'",
+		"IMG": "'./img/broodje cervelaat.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1355,7 +1355,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Paté":
 	[{
-		"IMG": "'./img/Broodje Paté.jpg'",
+		"IMG": "'./img/broodje paté.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1406,7 +1406,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Ham":
 	[{
-		"IMG": "'./img/Broodje Ham.jpg'",
+		"IMG": "'./img/broodje ham.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1457,7 +1457,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Oude Kaas":
 	[{
-		"IMG": "'./img/Broodje Oude Kaas.jpg'",
+		"IMG": "'./img/broodje oude kaas.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1508,7 +1508,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Brie":
 	[{
-		"IMG": "'./img/Broodje Brie.jpg'",
+		"IMG": "'./img/broodje brie.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1559,7 +1559,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Rosbief":
 	[{
-		"IMG": "'./img/Broodje Rosbief.jpg'",
+		"IMG": "'./img/broodje rosbief.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1606,7 +1606,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Serranoham":
 	[{
-		"IMG": "'./img/Broodje Serranoham.jpg'",
+		"IMG": "'./img/broodje serranoham.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1653,7 +1653,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Gezond":
 	[{
-		"IMG": "'./img/Broodje Gezond.jpg'",
+		"IMG": "'./img/broodje gezond.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1700,7 +1700,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Eiersalade":
 	[{
-		"IMG": "'./img/Broodje Eiersalade.jpg'",
+		"IMG": "'./img/broodje eiersalade.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1751,7 +1751,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Zalmsalade":
 	[{
-		"IMG": "'./img/Broodje Zalmsalade.jpg'",
+		"IMG": "'./img/broodje zalmsalade.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1802,7 +1802,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Tonijnsalade":
 	[{
-		"IMG": "'./img/Broodje Tonijnsalade.jpg'",
+		"IMG": "'./img/broodje tonijnsalade.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1853,7 +1853,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Kipkerriesalade":
 	[{
-		"IMG": "'./img/Broodje Kipkerriesalade.jpg'",
+		"IMG": "'./img/broodje kipkerriesalade.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1904,7 +1904,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Koolsalade":
 	[{
-		"IMG": "'./img/Broodje Koolsalade.jpg'",
+		"IMG": "'./img/broodje koolsalade.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1955,7 +1955,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Krabsalade":
 	[{
-		"IMG": "'./img/Broodje Krabsalade.jpg'",
+		"IMG": "'./img/broodje krabsalade.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2002,7 +2002,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Gerookte Zalm":
 	[{
-		"IMG": "'./img/Broodje Gerookte Zalm.jpg'",
+		"IMG": "'./img/broodje gerookte zalm.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2049,7 +2049,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Filet Americain":
 	[{
-		"IMG": "'./img/Broodje Filet Americain.jpg'",
+		"IMG": "'./img/broodje filet americain.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2100,7 +2100,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Martino":
 	[{
-		"IMG": "'./img/Broodje Martino.jpg'",
+		"IMG": "'./img/broodje martino.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2147,7 +2147,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Carpaccio":
 	[{
-		"IMG": "'./img/Broodje Carpaccio.jpg'",
+		"IMG": "'./img/broodje carpaccio.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2194,7 +2194,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje Gehakt":
 	[{
-		"IMG": "'./img/Broodje Gehakt.jpg'",
+		"IMG": "'./img/broodje gehakt.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2241,7 +2241,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje hagelslag":
 	[{
-		"IMG": "'./img/Broodje hagelslag.jpg'",
+		"IMG": "'./img/broodje hagelslag.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2276,7 +2276,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje chocopasta":
 	[{
-		"IMG": "'./img/Broodje chocopasta.jpg'",
+		"IMG": "'./img/broodje chocopasta.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -2311,7 +2311,7 @@ AllMainItems = {
 		}]
 	}],	"Broodje gekookt ei":
 	[{
-		"IMG": "'./img/Broodje gekookt ei.jpg'",
+		"IMG": "'./img/broodje gekookt ei.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
