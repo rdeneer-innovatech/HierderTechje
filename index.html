@@ -53,12 +53,31 @@
   </head>
   
   <body style="background-color: rgba(73, 73, 73, 0.8)">
-    <div style="text-align: left; padding-top: 10px; padding-bottom: 20px;" id="Menu">Menu</div>
+    <!--<div style="text-align: left; padding-top: 10px; padding-bottom: 20px;" id="Menu">Menu</div>-->
+	<div style="padding-top: 10px; padding-bottom: 20px;"></div>
     <div style="text-align: center" id="Logo"><img width="400"></div>
     <div class="grid-containerlist"; id="SelectionList"></div>
     <div class="grid-container"; id="ItemList"></div>
 	<script type="text/javascript" src="MainItems.js"></script>
       <script type="module">
+			window.onbeforeunload = function() { return 0; } //message that state will be lost
+			window.addEventListener("mouseup", (e) => 
+			{
+				switch (e.button) 
+				{
+					case 3: //back
+					{
+						GoBack();
+						break;
+					}
+					case 0: //left
+					case 1: // middle
+					case 2: //right
+					default:
+					console.log("mouse button:"+e.button);
+				}
+			});
+			let CanGoBack = false;
 			let Logo = document.getElementById("Logo"); 
 			let ItemList = document.getElementById("ItemList"); 
 			let SelectionList = document.getElementById("SelectionList"); 
@@ -68,7 +87,7 @@
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
 			OrderSelection.className = "grid-item-selection";
-			OrderSelection.innerHTML = "<input type=\"text\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"Name\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
+			OrderSelection.innerHTML = "<input type=\"text\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"E-mail\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
 			SelectionList.append(OrderSelection);  
 			let OrderBtn = document.getElementById("OrderAction"); 
 			let OrderName = document.getElementById("OrderName"); 
@@ -143,6 +162,7 @@
 				//Add the current item to the navigationlist 
 				PreviousItems.push({ key: Object.keys(PreviousItems).length, value: Items });
 				ClearItems();
+				CanGoBack = Items != AllMainItems;
 				if(Items != AllMainItems)
 				{
 					//add back button
@@ -150,13 +170,7 @@
 					NewItem.className = "grid-item";
 					NewItem.style = "background-image: url(./img/back.jpg)";
 					NewItem.innerHTML = "Back";
-					NewItem.onclick= (event) => 
-					{ 
-						let CurrentPage = PreviousItems.pop();	
-						let PreviousPage = PreviousItems.pop();
-						PreviousClicked.pop();
-						ShowItems(PreviousPage.value);
-					};
+					NewItem.onclick= (event) => { GoBack(); };
 					ItemList.append(NewItem);
 				}
 				Logo.innerHTML="<img src="+Items.IMG+">";
@@ -207,7 +221,8 @@
 					return;
 					if(confirm("Want to delete "+ItemToAdd+"?"))
 					{
-
+						
+						SelectionList.remove(NewItemSelection);
 					}
 				};
 				SelectionList.append(NewItemSelection);
@@ -219,6 +234,14 @@
 				PreviousItems = [];
 				PreviousClicked = [];
 				ShowItems(AllMainItems);
+			}
+			function GoBack()
+			{
+				if(!CanGoBack){return;}
+				let CurrentPage = PreviousItems.pop();	
+				let PreviousPage = PreviousItems.pop();
+				PreviousClicked.pop();
+				ShowItems(PreviousPage.value);
 			}
       </script>
   </body>
