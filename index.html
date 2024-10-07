@@ -219,10 +219,16 @@
 				let ItemToAdd = FullItemString.substring(0, FullItemString.length - 1)
 				GoHome();
 				console.log("Added to order list");
-				let NewItemSelection = document.createElement(NewID);
+				let NewItemSelection = document.createElement("div");
 				NewItemSelection.className = "grid-item-selection";
 				NewItemSelection.innerHTML = ItemToAdd;
-				NewItemSelection.onclick= (event) => 
+				let RemoveButton = document.createElement("img");
+				RemoveButton.setAttribute("src", "img/remove.jpg");
+				RemoveButton.setAttribute("height", "25");
+				RemoveButton.setAttribute("width", "25");
+				RemoveButton.setAttribute("align", "right");
+				NewItemSelection.append(RemoveButton);
+				RemoveButton.onclick= (event) => 
 				{ 
 					if(confirm("Want to delete "+ItemToAdd+"?")) { NewItemSelection.remove(); }
 				};
