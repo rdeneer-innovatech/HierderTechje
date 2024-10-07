@@ -87,13 +87,20 @@
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
 			OrderSelection.className = "grid-item-selection";
-			OrderSelection.innerHTML = "<input type=\"text\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"E-mail\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
+			OrderSelection.innerHTML = "<input type=\"email\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"E-mail\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
 			SelectionList.append(OrderSelection);  
 			let OrderBtn = document.getElementById("OrderAction"); 
 			let OrderName = document.getElementById("OrderName"); 
 			OrderBtn.onclick= (event) => { SendCurrentOrder(); };
 			async function SendCurrentOrder()
 			{
+				let isEmail = OrderName.value.includes('@');
+				isEmail &= (OrderName.value.includes('innovatech-rd.com') || OrderName.value.includes('innovatest-europe.com'));
+				if(!isEmail)
+				{
+					alert("Please enter valid and allowed e-mail");
+					return;
+				}
 				let headersList = 
 				{
 					"Accept": "*/*",
@@ -212,19 +219,12 @@
 				let ItemToAdd = FullItemString.substring(0, FullItemString.length - 1)
 				GoHome();
 				console.log("Added to order list");
-				let NewID = "div"+1
 				let NewItemSelection = document.createElement(NewID);
 				NewItemSelection.className = "grid-item-selection";
 				NewItemSelection.innerHTML = ItemToAdd;
 				NewItemSelection.onclick= (event) => 
 				{ 
-					//TODO
-					return;
-					if(confirm("Want to delete "+ItemToAdd+"?"))
-					{
-						
-						SelectionList.remove(NewItemSelection);
-					}
+					if(confirm("Want to delete "+ItemToAdd+"?")) { NewItemSelection.remove(); }
 				};
 				SelectionList.append(NewItemSelection);
 				SelectionString = "";
