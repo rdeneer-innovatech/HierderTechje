@@ -82,16 +82,38 @@
 			let ItemList = document.getElementById("ItemList"); 
 			let SelectionList = document.getElementById("SelectionList"); 
 			let PreviousItems = [];
-			let PreviousClicked = [];
-			GoHome();
+			let PreviousClicked = [];			
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
 			OrderSelection.className = "grid-item-selection";
-			OrderSelection.innerHTML = "<input type=\"email\" id=\"OrderName\" style=\"text-align:center; width:500px;\" value=\"E-mail\"> <input type=\"submit\" id=\"OrderAction\" style=\"width:200px;\" value=\"Send\">";
-			SelectionList.append(OrderSelection);  
-			let OrderBtn = document.getElementById("OrderAction"); 
-			let OrderName = document.getElementById("OrderName"); 
+
+			let OrderName = document.createElement("input");
+			OrderName.type = "email";
+			OrderName.style.width = "500px";
+			OrderName.style.textAlign = "center";
+			OrderName.value = "E-mail";
+			OrderName.ariaAutoComplete = "on";
+			OrderName.onclick= (event) => { if(OrderName.value === "E-mail"){ OrderName.value = ""; } }; //clear value is default
+			OrderSelection.append(OrderName);
+
+			let OrderBtn = document.createElement("input");
+			OrderBtn.type = "submit";
+			OrderBtn.value = "Send";
+			OrderBtn.style.width = "200px";
+			OrderBtn.style.textAlign = "center";
+			OrderBtn.ariaAutoComplete = "on";
 			OrderBtn.onclick= (event) => { SendCurrentOrder(); };
+			OrderSelection.append(OrderBtn);
+
+			let OrderTime = document.createElement("div");
+			let OrderTimeValue = document.createTextNode("Time");
+			OrderTime.appendChild(OrderTimeValue);
+			OrderTime.style.textAlign = "right";
+			OrderTimeValue.nodeValue = "-";
+			OrderSelection.append(OrderTime);
+			SelectionList.append(OrderSelection); 
+			GoHome();
+			UpdateOrderTime();
 			async function SendCurrentOrder()
 			{
 				let isEmail = OrderName.value.includes('@');
@@ -134,13 +156,11 @@
 				console.log(data);
 
 				alert("Request has been received\n");
+				SelectionList.innerHTML = "";
+				SelectionList.append(OrderSelection);  
+				console.log(All);
 				GoHome();
 			}
-			function ClearItems()
-			{
-               ItemList.innerHTML = ""; 
-               //while (ItemList.firstChild) ItemList.removeChild(ItemList.firstChild);
-            }
 			function GetData(Loc)
 			{
 				if(Loc == "0") 
@@ -169,7 +189,7 @@
 			{
 				//Add the current item to the navigationlist 
 				PreviousItems.push({ key: Object.keys(PreviousItems).length, value: Items });
-				ClearItems();
+				ItemList.innerHTML = ""; 
 				CanGoBack = Items != AllMainItems;
 				if(Items != AllMainItems)
 				{
@@ -223,10 +243,11 @@
 				NewItemSelection.className = "grid-item-selection";
 				NewItemSelection.innerHTML = ItemToAdd;
 				let RemoveButton = document.createElement("img");
-				RemoveButton.setAttribute("src", "img/remove.jpg");
-				RemoveButton.setAttribute("height", "25");
-				RemoveButton.setAttribute("width", "25");
-				RemoveButton.setAttribute("align", "right");
+				RemoveButton.id = "Remove";
+				RemoveButton.src = "img/remove.jpg";
+				RemoveButton.height = 25;
+				RemoveButton.width = 25;
+				RemoveButton.align = "right";
 				NewItemSelection.append(RemoveButton);
 				RemoveButton.onclick= (event) => 
 				{ 
@@ -235,7 +256,6 @@
 				SelectionList.append(NewItemSelection);
 				SelectionString = "";
 			}
-
 			function GoHome()
 			{
 				PreviousItems = [];
@@ -249,6 +269,12 @@
 				let PreviousPage = PreviousItems.pop();
 				PreviousClicked.pop();
 				ShowItems(PreviousPage.value);
+			}
+			function UpdateOrderTime()
+			{
+				let Now = new Date();
+				OrderTimeValue.nodeValue = "";//(Now.getHours()-10) + ":" + (Now.getMinutes()-45) + ":" + Now.getSeconds();
+				setTimeout(UpdateOrderTime, 1000);
 			}
       </script>
   </body>
