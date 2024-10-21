@@ -60,7 +60,14 @@
     <div class="grid-container"; id="ItemList"></div>
 	<script type="text/javascript" src="MainItems.js"></script>
       <script type="module">
-			window.onbeforeunload = function() { return 0; } //message that state will be lost
+			
+			//message that state will be lost
+			window.onbeforeunload = function() 
+			{  
+				if (OrderPlaced) { return; }
+				return 0; 
+			} 
+			//handle mouse events
 			window.addEventListener("mouseup", (e) => 
 			{
 				switch (e.button) 
@@ -77,12 +84,15 @@
 					console.log("mouse button:"+e.button);
 				}
 			});
+			// init vars
+			let DefaultText = "Please enter your company E-mail";
+			let OrderPlaced = true;
 			let CanGoBack = false;
 			let Logo = document.getElementById("Logo"); 
 			let ItemList = document.getElementById("ItemList"); 
 			let SelectionList = document.getElementById("SelectionList"); 
 			let PreviousItems = [];
-			let PreviousClicked = [];			
+			let PreviousClicked = [];
 			let SelectionString = "";
 			let OrderSelection = document.createElement("div");
 			OrderSelection.className = "grid-item-selection";
@@ -91,9 +101,9 @@
 			OrderName.type = "email";
 			OrderName.style.width = "500px";
 			OrderName.style.textAlign = "center";
-			OrderName.value = "E-mail";
+			OrderName.value = DefaultText;
 			OrderName.ariaAutoComplete = "on";
-			OrderName.onclick= (event) => { if(OrderName.value === "E-mail"){ OrderName.value = ""; } }; //clear value is default
+			OrderName.onclick= (event) => { if(OrderName.value === DefaultText){ OrderName.value = ""; } }; //clear value is default
 			OrderSelection.append(OrderName);
 
 			let OrderBtn = document.createElement("input");
@@ -154,7 +164,7 @@
 
 				let data = await response.text();
 				console.log(data);
-
+				OrderPlaced = true;
 				alert("Request has been received\n");
 				SelectionList.innerHTML = "";
 				SelectionList.append(OrderSelection);  
@@ -233,6 +243,7 @@
 			}   
 			function AddItemToSelection()
 			{
+				OrderPlaced = false;
 				console.log(PreviousClicked);
 				let FullItemString = "";
 				for (let i = 0; i < Object.keys(PreviousClicked).length; i+=1) { FullItemString+=PreviousClicked[i].value+"/"; }
@@ -273,7 +284,7 @@
 			function UpdateOrderTime()
 			{
 				let Now = new Date();
-				OrderTimeValue.nodeValue = "";//(Now.getHours()-10) + ":" + (Now.getMinutes()-45) + ":" + Now.getSeconds();
+				OrderTimeValue.nodeValue = "";//((Now.getHours()-10)*-1) + ":" + (Now.getMinutes()-45) + ":" + Now.getSeconds();
 				setTimeout(UpdateOrderTime, 1000);
 			}
       </script>
