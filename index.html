@@ -246,7 +246,7 @@
 				OrderPlaced = false;
 				console.log(PreviousClicked);
 				let FullItemString = "";
-				for (let i = 0; i < Object.keys(PreviousClicked).length; i+=1) { FullItemString+=PreviousClicked[i].value+"\"; }
+				for (let i = 0; i < Object.keys(PreviousClicked).length; i+=1) { FullItemString+=PreviousClicked[i].value+"\\"; }
 				let ItemToAdd = FullItemString.substring(0, FullItemString.length - 1)
 				GoHome();
 				console.log("Added to order list");
