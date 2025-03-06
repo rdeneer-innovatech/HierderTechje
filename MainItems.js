@@ -123,9 +123,9 @@ AllMainItems = {
 		[{
 			"IMG": "'./img/triangel.jpg'",
 		}]
-	}],	"Broodje Paté":
+	}],	"Broodje Pate":
 	[{
-		"IMG": "'./img/broodje paté.jpg'",
+		"IMG": "'./img/broodje pate.jpg'",
 		"Wit zacht broodje":
 		[{
 			"IMG": "'./img/wit zacht broodje.jpg'",
@@ -1072,9 +1072,9 @@ AllMainItems = {
 	}],	"Friet oorlog":
 	[{
 		"IMG": "'./img/friet oorlog.jpg'"
-	}],	"Friet satésaus":
+	}],	"Friet satesaus":
 	[{
-		"IMG": "'./img/friet satésaus.jpg'"
+		"IMG": "'./img/friet satesaus.jpg'"
 	}],	"Friet speciaal":
 	[{
 		"IMG": "'./img/friet speciaal.jpg'"
@@ -1211,7 +1211,7 @@ AllMainItems = {
 		"IMG": "'./img/mosterd.jpg'"
 	}],	"Satesaus":
 	[{
-		"IMG": "'./img/satésaus.jpg'"
+		"IMG": "'./img/satesaus.jpg'"
 	}],	"Kruidenboter":
 	[{
 		"IMG": "'./img/kruidenboter.jpg'"
@@ -1238,9 +1238,9 @@ AllMainItems = {
 	}],	"Zuurvleesschotel":
 	[{
 		"IMG": "'./img/zuurvleesschotel.jpg'"
-	}],	"Satéschotel":
+	}],	"Sateschotel":
 	[{
-		"IMG": "'./img/satéschotel.jpg'"
+		"IMG": "'./img/sateschotel.jpg'"
 	}],	"Ragoutschotel":
 	[{
 		"IMG": "'./img/ragoutschotel.jpg'"
@@ -1381,9 +1381,9 @@ AllMainItems = {
 	}],	"Italiaanse bol hete kip":
 	[{
 		"IMG": "'./img/italiaanse bol hete kip.jpg'"
-	}],	"Saté met Stokbrood":
+	}],	"Sate met Stokbrood":
 	[{
-		"IMG": "'./img/saté met stokbrood.jpg'"
+		"IMG": "'./img/sate met stokbrood.jpg'"
 	}],	"Pannenkoek":
 	[{
 		"IMG": "'./img/pannenkoek.jpg'",
