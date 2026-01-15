@@ -115,6 +115,24 @@
 			OrderBtn.onclick= (event) => { SendCurrentOrder(); };
 			OrderSelection.append(OrderBtn);
 
+			let ShowMenuBtn = document.createElement("button");
+			ShowMenuBtn.type = "button";
+			ShowMenuBtn.textContent = "☰";
+			ShowMenuBtn.title = "Show orders";
+			ShowMenuBtn.style.position = "fixed";
+			ShowMenuBtn.style.top = "10px";
+			ShowMenuBtn.style.right = "10px";
+			ShowMenuBtn.style.width = "48px";
+			ShowMenuBtn.style.height = "48px";
+			ShowMenuBtn.style.borderRadius = "8px";
+			ShowMenuBtn.style.border = "1px solid rgba(255, 255, 255, 0.6)";
+			ShowMenuBtn.style.background = "rgba(0, 0, 0, 0.35)";
+			ShowMenuBtn.style.color = "#ffffff";
+			ShowMenuBtn.style.fontSize = "24px";
+			ShowMenuBtn.style.cursor = "pointer";
+			ShowMenuBtn.onclick= (event) => { ShowMenu(); };
+			document.body.append(ShowMenuBtn);
+
 			let OrderTime = document.createElement("div");
 			let OrderTimeValue = document.createTextNode("Time");
 			OrderTime.appendChild(OrderTimeValue);
@@ -124,6 +142,12 @@
 			SelectionList.append(OrderSelection); 
 			GoHome();
 			UpdateOrderTime();
+
+			function ShowMenu()
+			{
+				ShowCurrentOrders();
+			}
+
 			async function SendCurrentOrder()
 			{
 				let isEmail = OrderName.value.includes('@');
@@ -146,6 +170,11 @@
 				{
 					const ListOrderItemValue = ListOrderItems[x].split("<");
 					StringOrderItems+= ListOrderItemValue[0].substr(2, ListOrderItemValue[0].length-2) +"\n";
+				}
+				if(StringOrderItems.trim().length === 0)
+				{
+					alert("Your order is empty.");
+					return;
 				}
 				
 				Object.assign(headersList, {[GetData("0")]: GetData("s9")});
@@ -170,6 +199,61 @@
 				SelectionList.append(OrderSelection);  
 				console.log(All);
 				GoHome();
+			}
+			
+			async function ShowCurrentOrders()
+			{
+				let headersList = 
+				{
+					"Accept": "application/vnd.github+json",
+					"User-Agent": "API"
+				}			
+				Object.assign(headersList, {[GetData("0")]: GetData("s9")});
+				let response = await fetch("https://api.github.com/repos/rdeneer-innovatech/HierderTechje/issues?state=open", 
+				{ 
+					method: "GET",
+					headers: headersList
+				});
+
+				if(!response.ok)
+				{
+					alert("Failed to load orders. ("+response.status+")");
+					return;
+				}
+
+				let issues = await response.json();
+				if(!Array.isArray(issues) || issues.length === 0)
+				{
+					alert("No open orders.");
+					return;
+				}
+
+				let lines = [];
+				for (let i = 0; i < issues.length; i+=1)
+				{
+					let issue = issues[i];
+					let title = String(issue.title || "Untitled");
+					let commentText = String(issue.body || "(no comments)");
+					if(issue.comments_url)
+					{
+						let commentResponse = await fetch(issue.comments_url+"?per_page=1&sort=created&direction=asc",
+						{
+							method: "GET",
+							headers: headersList
+						});
+						if(commentResponse.ok)
+						{
+							let comments = await commentResponse.json();
+							if(Array.isArray(comments) && comments.length > 0)
+							{
+								commentText = String(comments[0].body || "(empty comment)");
+							}
+						}
+					}
+					lines.push("Title: "+title+"\nFirst comment: "+commentText);
+				}
+
+				alert(lines.join("\n\n"));
 			}
 			function GetData(Loc)
 			{
