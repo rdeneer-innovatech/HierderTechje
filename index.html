@@ -224,7 +224,7 @@
 				let issues = await response.json();
 				if(!Array.isArray(issues) || issues.length === 0)
 				{
-					alert("No open orders.");
+					alert("No open orders yet.");
 					return;
 				}
 
@@ -250,7 +250,7 @@
 							}
 						}
 					}
-					lines.push("Title: "+title+"\nFirst comment: "+commentText);
+					lines.push("User: "+title+"\n"+commentText);
 				}
 
 				alert(lines.join("\n\n"));
