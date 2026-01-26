@@ -1,0 +1,64 @@
+name: On issue label change
+on:
+  issues:
+    types: [labeled, unlabeled]  # triggers when labels are added/removed [1](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
+
+permissions:
+  issues: write  # needed to update/delete issue comments [2](https://docs.github.com/en/rest/issues/comments)
+
+jobs:
+  clear_second_comment:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.label.name == 'triage' }}
+    steps:
+      - name: Update issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo  = context.repo.repo;
+            const issue_number = context.payload.issue.number;
+
+            // List comments on the issue (NOT including the issue body)
+            // API supports listing issue comments [2](https://docs.github.com/en/rest/issues/comments)
+            const { data: comments } = await github.rest.issues.listComments(
+            {
+              owner,
+              repo,
+              issue_number,
+              per_page: 100
+            });
+
+            if (comments.length < 2) 
+            {
+              core.info(`Less than 2 comments found (${comments.length}). Nothing to clear.`);
+              return;
+            }
+
+            // "Second comment" = index 1 (since comments[] excludes the issue body)
+            const second = comments[1];
+
+            // Clear by updating the comment body (PATCH)
+            // Updating issue comments is supported by REST API [2](https://docs.github.com/en/rest/issues/comments)
+            await github.rest.issues.updateComment(
+            {
+              owner,
+              repo,
+              comment_id: second.id,
+              body: ""  // If empty string isn't accepted in your repo, use " " or a placeholder
+            });
+
+            core.info(`Cleared comment_id=${second.id} on issue #${issue_number}`);
+            
+            // Close the issue (Update an issue endpoint) [3](https://docs.github.com/en/rest/issues)
+            await github.rest.issues.update(
+            {
+              owner,
+              repo,
+              issue_number,
+              state: "closed",
+            });
+
+            core.info(`Closed issue #${issue_number}`);
+
