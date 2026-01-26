@@ -1,4 +1,6 @@
+
 name: On issue label change
+
 on:
   issues:
     types: [labeled, unlabeled]
@@ -9,6 +11,7 @@ permissions:
 jobs:
   Update_Order:
     runs-on: ubuntu-latest
+
     steps:
       - name: Update issue
         uses: actions/github-script@v7
@@ -19,8 +22,6 @@ jobs:
             const repo  = context.repo.repo;
             const issue_number = context.payload.issue.number;
 
-            // List comments on the issue (NOT including the issue body)
-            // API supports listing issue comments
             const { data: comments } = await github.rest.issues.listComments(
             {
               owner,
@@ -29,32 +30,30 @@ jobs:
               per_page: 100
             });
 
-            if (comments.length < 1) 
+            if (comments.length < 1)
             {
-              core.info(`No comments found (${comments.length}). Nothing to clear.`);
+              core.info(`No comments found (${comments.length}). Nothing to update.`);
               return;
             }
 
-            // Clear by updating the comment body (PATCH)
-            // Updating issue comments is supported by REST API
+            const last = comments[comments.length - 1];
+
             await github.rest.issues.updateComment(
             {
               owner,
               repo,
-              comment_id: comments[${comments.length}-1].id,
-              body: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAA5klEQVR4nO3QQQkAIADAQLV/Z63gXiLcJRibYw8urdcBPzErMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCs4iV8Bx6UARfcAAAAASUVORK5CYII=" 
+              comment_id: last.id,
+              body: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAA5klEQVR4nO3QQQkAIADAQLV/Z63gXiLcJRibYw8urdcBPzErMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCswKzArMCs4iV8Bx6UARfcAAAAASUVORK5CYII="
             });
 
-            core.info(`Cleared comment_id=${comments[${comments.length}-1].id} on issue #${issue_number}`);
-            
-            // Close the issue (Update an issue endpoint)
+            core.info(`Updated comment_id=${last.id} on issue #${issue_number}`);
+
             await github.rest.issues.update(
             {
               owner,
               repo,
               issue_number,
-              state: "closed",
+              state: "closed"
             });
 
             core.info(`Closed issue #${issue_number}`);
-
